@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[no of rows are::18]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-07-24T20:50:54 IST" name="Default suite" finished-at="2023-07-24T20:51:22 IST" duration-ms="28722">
+    <groups>
+    </groups>
+    <test started-at="2023-07-24T20:50:54 IST" name="Default test" finished-at="2023-07-24T20:51:22 IST" duration-ms="28722">
+      <class name="driverFactory.DriverScript">
+        <test-method is-config="true" signature="setup()[pri:0, instance:driverFactory.DriverScript@1f9e9475]" started-at="2023-07-24T20:50:54 IST" name="setup" finished-at="2023-07-24T20:50:55 IST" duration-ms="1232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="StartTest()[pri:0, instance:driverFactory.DriverScript@1f9e9475]" started-at="2023-07-24T20:50:55 IST" name="StartTest" finished-at="2023-07-24T20:51:22 IST" duration-ms="27128" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[no of rows are::18]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- StartTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:driverFactory.DriverScript@1f9e9475]" started-at="2023-07-24T20:51:22 IST" name="teardown" finished-at="2023-07-24T20:51:22 IST" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- driverFactory.DriverScript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
